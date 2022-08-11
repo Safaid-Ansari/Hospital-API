@@ -1,5 +1,5 @@
 {
-  "name": "hospital-server",
+  "name": "Hospital-API",
   "version": "1.0.0",
   "description": "Doctor-Patient Registration Server",
   "main": "index.js",
