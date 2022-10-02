@@ -10,7 +10,7 @@ module.exports.register = async function (req, res) {
     req.body.password == undefined
   ) {
     return res.status(206).json({
-      message: "Incomplete Information ",
+      message: "Incomplete Information",
     });
   }
 

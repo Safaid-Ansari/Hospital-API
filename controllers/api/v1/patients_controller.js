@@ -3,7 +3,7 @@ const Report = require("../../../models/report");
 let Doctor = require("../../../models/doctor");
 const Status = require("../../../config/status");
 
-//Register a patient using name,phone and password
+//Register a patient using name,phone
 module.exports.register = async function (req, res) {
   if (req.body.phone == undefined || req.body.name == undefined) {
     return res.status(206).json({
