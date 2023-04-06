@@ -1,5 +1,7 @@
 # Hospital-API
 
+Hosted URL : https://hospital-api-07.herokuapp.com/ 
+
 I have design an API using Node.js and MongoDB for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients.
 
 ## Features
