@@ -6,7 +6,7 @@ const Doctor = require("../models/doctor");
 // extract token from header
 let opts = {
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
-  secretOrKey: "HospitalAPI",
+  secretOrKey: process.env.SECRET_KEY,
 };
 // authenticate using jwt
 passport.use(

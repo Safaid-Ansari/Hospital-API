@@ -1,9 +1,6 @@
 const mongoose = require("mongoose");
-
-mongoose.connect(
-  "mongodb+srv://SafaidAnsari:iBcR2P7fTHF4UZBx@cluster0.vmqnisk.mongodb.net/Hospital-API",
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+const URI = process.env.MONGO_URI;
+mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 
